@@ -1,8 +1,12 @@
 
 Simple project to up a telegram bot using aws infrastructure, and simple deploy with terraform
 
-commands:
-``
+
+Steps:
+* replace REPLACE_ME_TOKEN_OF_BOT_FATHER on variables.tf file and put variable generate of bot father of telegram.
+* run `pip install --target ./lambda_func requests`
+* run `terraform init`
+* run `terraform apply -auto-approve`
 
 
 useful commands:
