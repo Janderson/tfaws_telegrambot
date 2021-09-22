@@ -1,12 +1,23 @@
 
+## Simple Telegram bot using python lambda function and AWS with terraform
+
 Simple project to up a telegram bot using aws infrastructure, and simple deploy with terraform
 
+requirements:
+* terraform instaled
+* aws cli configure into your aws account (like `aws s3 ls` works)
 
 Steps:
 * replace REPLACE_ME_TOKEN_OF_BOT_FATHER on variables.tf file and put variable generate of bot father of telegram.
 * run `pip install --target ./lambda_func requests`
 * run `terraform init`
 * run `terraform apply -auto-approve`
+
+To clean up (to dont have any cost):
+* run `terraform destroy`
+
+final result:
+![](example.png)
 
 
 useful commands:
