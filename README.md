@@ -12,13 +12,16 @@ Steps:
 useful commands:
 `aws lambda invoke --function-name "jjfunc2"  "out.txt"`
 
-resources and learning:
+resources:
+* AWS API Gateway
+* AWS Lambda
+
+
+documentation:
 * https://www.terraform.io/docs/language/providers/configuration.html
 
 
-data:
-* https://www.terraform.io/docs/language/data-sources/index.html
-* https://www.terraform.io/docs/language/expressions/references.html
+terraform tag data: https://www.terraform.io/docs/language/data-sources/index.html and https://www.terraform.io/docs/language/expressions/references.html
 
 
 aws_iam_policy_document vs aws_iam_policy
